@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_client"
+    app:startDestination="@id/catalogFragment">
+
+    <fragment
+        android:id="@+id/catalogFragment"
+        android:name="com.example.yakovleva_zd7_v3.CatalogFragment"
+        android:label="@string/catalog"
+        tools:layout="@layout/fragment_catalog" />
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.yakovleva_zd7_v3.CartFragment"
+        android:label="@string/cart"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/clientOrdersFragment"
+        android:name="com.example.yakovleva_zd7_v3.ClientOrdersFragment"
+        android:label="Мои заказы"
+        tools:layout="@layout/fragment_client_orders" />
+</navigation>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/fistache">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить деталь"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/carob"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_detail"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editPartName"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:textSize="14sp"
+        android:background="@drawable/input"
+        android:padding="10dp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <Spinner
+        android:id="@+id/editPartType"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:textSize="14sp"
+        android:background="@drawable/input"
+        android:padding="10dp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/characteristics"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editCharacteristics"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:textSize="14sp"
+        android:background="@drawable/input"
+        android:padding="10dp"
+        android:gravity="top"
+        android:layout_marginTop="4dp"
+        android:inputType="textMultiLine"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/price"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editPrice"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:textSize="14sp"
+        android:background="@drawable/input"
+        android:padding="10dp"
+        android:layout_marginTop="4dp"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/buttonSavePart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_cta"
+        android:textAllCaps="false"
+        android:textColor="@color/vanilla"/>
+
+</LinearLayout>

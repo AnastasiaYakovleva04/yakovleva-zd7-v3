@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#0a0a0a</color>
+    <color name="matcha">#809671</color>
+    <color name="fistache">#b3b792</color>
+    <color name="carob">#725c3a</color>
+    <color name="almond">#e5e0d8</color>
+    <color name="chai">#854627</color>
+    <color name="vanilla">#e5d2b8</color>
+</resources>

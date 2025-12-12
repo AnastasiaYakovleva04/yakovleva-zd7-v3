@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/catalogFragment"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="@string/catalog" />
+
+    <item
+        android:id="@+id/cartFragment"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/cart" />
+
+    <item
+        android:id="@+id/clientOrdersFragment"
+        android:title="Мои заказы"
+        android:icon="@drawable/orders" />
+</menu>

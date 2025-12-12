@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Производство мебели</string>
+    <string name="input_email">Введите адрес электронной почты</string>
+    <string name="email">Email</string>
+    <string name="input_name">Введите имя</string>
+    <string name="name">Имя</string>
+    <string name="input_password">Введите пароль</string>
+    <string name="password">Пароль</string>
+    <string name="input_role">Выберите роль</string>
+    <string name="login">Войти</string>
+    <string name="catalog">Каталог</string>
+    <string name="cart">Корзина</string>
+    <string name="to_cart">В корзину</string>
+    <string name="empty_cart">Корзина пуста</string>
+    <string name="delete">Удалить</string>
+    <string name="total">Итого:</string>
+    <string name="quanity">Количество:</string>
+    <string name="make_order">Оформить заказ</string>
+    <string name="add">Добавить</string>
+    <string name="details">Детали</string>
+    <string name="price">Цена</string>
+    <string name="name_detail">Название детали</string>
+    <string name="characteristics">Характеристики</string>
+    <string name="type">Тип</string>
+    <string name="save">Сохранить</string>
+    <string name="no_details">Детали не добавлены</string>
+    <string name="my_orders">Мои заказы</string>
+    <string name="no_orders">Заказов пока нет</string>
+    <string name="order_number">Заказ #%s</string>
+    <string name="status_new">Новый</string>
+    <string name="status_in_production">В производстве</string>
+    <string name="status_ready">Готов</string>
+    <string name="status_shipped">Отгружен</string>
+    <string name="order_date">Дата: %s</string>
+    <string name="order_total">Итого: %s $</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
